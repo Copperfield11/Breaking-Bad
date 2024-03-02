@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Breaking Bad.css">
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <title>Breaking Bad - Que comience el juego!</title>
+</head>
+<body id="Formulario">
+    <h1>Breaking Bad - Que comience el juego!</h1>
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post">
+    <table>
+        <h3>Datos personales</h3>
+        <ul> Nombre: <br><input type="text" name="Nombre" placeholder="Example: Werner" required class="obligatorio"></ul>
+        <ul>Apellidos: <br><input type="text" name="Apellidos" placeholder="Example: Heisenberg" required class="obligatorio"></ul>
+        <ul><h3>Dirección postal:</h3>
+            <ol>Calle <br><input type="text" name="Calle" placeholder="Example: C/ Negra Arroyo Lane"></ol>
+            <ol>Número <br><input type="number" name="Numero" placeholder="Example: 308" min="0"></ol>
+            <ol>Ciudad <br><input type="text" name="Ciudad" placeholder="Example: Albuquerque"></ol>
+            <ol>Código postal <br><input type="text" name="CP" placeholder="Example NM 87111" ></ol>
+        </ul>
+        <ul>DNI <br><input type="text" name="DNI" id="" placeholder="Poco ejemplo puedo poner"></ul>
+        <ul>Correo electrónico <br><input type="email" name="Correo electronico" id="" placeholder="Ex: WW_blueMeth@yahoo.es"
+            required class="obligatorio"></ul>    
+    </table>
+    <table>
+        <ul>Indique su sexo: <br>
+            Hombre <input type="checkbox" name="Hombre" id="">
+            Mujer <input type="checkbox" name="Mujer" id="">
+        </ul>
+        <ul>Seleccione su fecha de nacimiento: <br><input type="date" name="Fecha de nacimiento" id=""></ul>
+    </table>
+        <ul>
+            ¿Qué personaje te gusta más? <br><select name="combo" id="">
+            <option value="1">Jessie Pinkman</option>
+            <option value="2">Walter White</option>
+            <option value="3">Saul Goodman</option>
+            <option value="4">Gustavo Fring</option>
+            <option value="5">Pollos Hermanos</option>
+            <option value="6">Otros personajes</option>
+        </select></ul>
+        <table>
+            ¿Hay algo que desees aportar? ¡No te cortes! <br>
+            <textarea name="Opinión" id="" cols="30" rows="10" placeholder="Te hubiese gustado seleccionar a Mike? Pues dínoslo también, que no pasa nada!"></textarea>
+    </table>
+    <input type="file" name="Archivos" accept=".pdf, .jpg, .doc" multiple><br>
+    <input type="reset" value="Borrar" class="botones"> <br>
+    <input type="submit" value="Enviar" class="botones">
+</form>
+</body>
+</html>
